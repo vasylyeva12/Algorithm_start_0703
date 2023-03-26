@@ -1,0 +1,27 @@
+const firstArr = ["flower", "flow", "flight"];
+
+
+       const secondArr = ["dog","racecar","car"];
+
+
+              function starting(array) {
+                  if (!Array.isArray(array) || array.length === 0)
+                   return '';
+
+                  let str = '',
+                      count1 = array[0].length,
+                      count2 = array.length;
+                  for (let i = 0; i < firstCounter; ++i) {
+                      let equals = true,
+                          x = array[0][i];
+                      for (let j = 1; j < secondCounter; ++j) {
+                          if (x != array[j][i]) {
+                              equals = false;
+                              break;
+                          }
+                      }
+                      if (equals)
+                          str += x;
+                  }
+                  return str;
+              }
